@@ -10,6 +10,7 @@ public class Lucky {
 
 
     public static String ticket(int[] massive) {
+
         for (int i = 0; i < massive.length; i++) {
             if (massive[i] < 10 && massive[i] >= 0) {
                 continue;
@@ -22,10 +23,14 @@ public class Lucky {
         } else {
             return "Try one more time";
 
+
         }
+
 
     }
 
-
 }
+
+
+
 
